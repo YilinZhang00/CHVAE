@@ -1,0 +1,65 @@
+# Python cache / notebooks
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+*.ipynb
+
+# UKB audit reports
+ukb_audit_reports/
+
+# Training outputs / logs
+runs/
+logs/
+outputs/
+checkpoints/
+wandb/
+lightning_logs/
+events.out.tfevents.*
+*.log
+
+# Model weights / derived outputs
+*.ckpt
+*.pth
+*.pt
+*.pkl
+*.npy
+*.npz
+*.h5
+*.hdf5
+
+# Participant data / medical images / metadata
+*.csv
+*.tsv
+*.xlsx
+*.xls
+*.dcm
+*.nii
+*.nii.gz
+*.png
+*.jpg
+*.jpeg
+*.tif
+*.tiff
+
+# Archives / large files
+*.zip
+*.tar
+*.tar.gz
+*.gz
+*.7z
+
+# Local folders
+.work/
+selected_APspine/
+dxa_images_project/
+causal_output/
+eda_out/
+image_registeration_result/
+causal_deepscm_with_LDM/
+causal_diffusion/
+
+# System/editor
+.DS_Store
+__MACOSX/
+.vscode/
+.env
